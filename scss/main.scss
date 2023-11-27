@@ -241,8 +241,9 @@ nav {
 }
 
 .reviews {
+
     img {
-        display: inline-block;
+        display: inline-block; // не работает. Доделать фото вровень с именем----------------
     }
     .desc {
         margin-bottom: 50px;
@@ -264,4 +265,27 @@ nav {
     }
 }
 
+footer {
+    margin: 105px 0;
+.footer-nav {
+    display: flex;
+    gap: 75px;
+    .inner-nav {
+        display: flex;
+        flex-direction: column;
+        a, h4 {
+            padding-left: 0;
+        }
+        a {
+            padding-bottom: 0;
+        }
+        h4 {
+            margin-bottom: 20px;
+        }
+    }
+    .gap {
+        margin-right: 200px;
+    }
+}
+}
 

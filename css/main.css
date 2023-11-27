@@ -293,4 +293,28 @@ nav .nav-login {
   padding: 40px;
   border-radius: 10px;
   border: 1px solid #fff;
+}
+
+footer {
+  margin: 105px 0;
+}
+footer .footer-nav {
+  display: flex;
+  gap: 75px;
+}
+footer .footer-nav .inner-nav {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-nav .inner-nav a, footer .footer-nav .inner-nav h4 {
+  padding-left: 0;
+}
+footer .footer-nav .inner-nav a {
+  padding-bottom: 0;
+}
+footer .footer-nav .inner-nav h4 {
+  margin-bottom: 20px;
+}
+footer .footer-nav .gap {
+  margin-right: 200px;
 }/*# sourceMappingURL=main.css.map */
