@@ -57,6 +57,10 @@ footer .footer-nav .inner-nav .nav-icon2::before, footer .footer-nav .inner-nav 
   font-style: normal;
   font-weight: 400;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: black;
   font-family: GraphikRegular, sans-serif;
@@ -302,6 +306,12 @@ nav .nav-login {
   padding: 40px;
   border-radius: 10px;
   border: 1px solid #fff;
+}
+.reviews .reviews-blocks-wrapper .reviews-block div {
+  display: flex;
+}
+.reviews .reviews-blocks-wrapper .reviews-block div img {
+  margin-right: 15px;
 }
 
 footer {

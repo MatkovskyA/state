@@ -11,7 +11,9 @@
     font-style: normal;
     font-weight: 400;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: $black-color;
     font-family: GraphikRegular, sans-serif;
@@ -269,6 +271,12 @@ nav {
             padding: 40px;
             border-radius: 10px;
             border: 1px solid $white-color;
+            div {
+                display: flex;
+                img {
+                    margin-right: 15px;
+                }
+            }
         }
     }
 }
