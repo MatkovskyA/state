@@ -61,14 +61,21 @@ button:hover {
     position: relative;
     }
 }
-
+header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: $black-color;
+    z-index: 5;
+}
 nav {
     display: flex;
     gap: 50px;
     padding: 40px;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 35px;
+
     img {
         min-width: 140px;
         margin-right: 50px;
@@ -87,6 +94,7 @@ nav {
 
 .desc {
     text-align: center;
+    margin-top: 120px;
     h1 {
         font-size: 80px;
         padding: 10px;
