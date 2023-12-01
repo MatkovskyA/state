@@ -47,6 +47,10 @@
                 padding: 10px;
             }
         }
+        .nav-login a {
+            padding: 20px 36px;
+            font-size: 17px;
+        }
     }
     .present .desc {
         margin-top: 120px;
@@ -142,7 +146,6 @@
     footer{
     .footer-nav {
         flex-direction: column;
-        justify-content: center;
         .gap {
             margin-right: 0;
         }
@@ -161,16 +164,93 @@
             right: 100px;
         }
     }
-
     }
-
 }
 }
 
 
 
 @media (max-width: $breakpoint_sm_576) {
+    section {
+        margin-bottom: 20px;
+    }
     .container {
-        max-width: 500px;
+        max-width: 449px;
+        
+    }
+    .desc {
+        max-width: 424px;
+        margin-left: auto;
+        margin-right: auto;
+    h1 {
+        font-size: 52px;
+        margin-bottom: 7px;
+    }
+    h4 {
+        margin-bottom: 45px;
+    }
+    }
+    nav .nav-login a {
+    padding: 10px 16px;
+    font-size: 17px;
+    }
+    .desc-content {
+        flex-direction: column;
+        .desc-content-img {
+            max-width: 325px;
+            margin: 0 auto 130px;
+        }
+        .desc-content-img::after {
+            max-width: 232px;
+            max-height: 160px;
+            bottom: -50px;
+            left: 40px;
+            background-size: cover;
+        }
+        .desc-content-text {
+            margin: 0 auto;
+            gap: 25px;
+        }
+    }
+    .block-wrapper {
+        gap: 30px;
+    div {
+        max-width: 350px;
+        margin: 0 auto;
+        p {
+            font-size: 14px;
+        }
+        .btn1 {
+            margin: 40px 0;
+        }
+    }
+}
+    .desc h2 {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+    .galery .galery-images img {
+        min-width: 280px;
+    }
+    .galery .galery-images .galery-image {
+        display: none;
+    }
+    .partners .icons-wrapper {
+        gap: 50px;
+        img {
+            max-width: 80px;
+        }
+    }
+    // .reviews .reviews-blocks-wrapper .reviews-block {
+    //     max-width: 315px;
+    // }
+    // footer .footer-nav  {
+    //     max-width: 320px;
+    // }
+}
+
+@media (min-width: 577px) {
+    .galery .galery-images .galery-image-hidden {
+        display: none;
     }
 }

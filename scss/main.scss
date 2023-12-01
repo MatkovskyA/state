@@ -224,6 +224,9 @@ header.open .header-burger-btn span:nth-child(3) {
         h3, p {
             @extend %extend-text-center;
         }
+        p {
+            color: $gray-color;
+        }
         button {
             padding: 20px 35px;
             background: $violet-color;
@@ -358,6 +361,9 @@ footer {
     }
     .gap {
         margin-right: 200px;
+    }
+    .inner-icon-wrapper {
+        text-align: center;
     }
 }
 }

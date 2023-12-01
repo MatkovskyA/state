@@ -278,6 +278,9 @@ header.open .header-burger-btn span:nth-child(3) {
   align-items: center;
   border-radius: 5px;
 }
+.block-wrapper div p {
+  color: #5C5C5C;
+}
 .block-wrapper div button {
   padding: 20px 35px;
   background: #4452FE;
@@ -397,6 +400,9 @@ footer .footer-nav .inner-nav .nav-icon2::before {
 footer .footer-nav .gap {
   margin-right: 200px;
 }
+footer .footer-nav .inner-icon-wrapper {
+  text-align: center;
+}
 
 @media (max-width: 1200px) {
   section {
@@ -440,6 +446,10 @@ footer .footer-nav .gap {
   }
   nav .nav-links a {
     padding: 10px;
+  }
+  nav .nav-login a {
+    padding: 20px 36px;
+    font-size: 17px;
   }
   .present .desc {
     margin-top: 120px;
@@ -515,7 +525,6 @@ footer .footer-nav .gap {
   }
   footer .footer-nav {
     flex-direction: column;
-    justify-content: center;
   }
   footer .footer-nav .gap {
     margin-right: 0;
@@ -535,7 +544,78 @@ footer .footer-nav .gap {
   }
 }
 @media (max-width: 576px) {
+  section {
+    margin-bottom: 20px;
+  }
   .container {
-    max-width: 500px;
+    max-width: 449px;
+  }
+  .desc {
+    max-width: 424px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .desc h1 {
+    font-size: 52px;
+    margin-bottom: 7px;
+  }
+  .desc h4 {
+    margin-bottom: 45px;
+  }
+  nav .nav-login a {
+    padding: 10px 16px;
+    font-size: 17px;
+  }
+  .desc-content {
+    flex-direction: column;
+  }
+  .desc-content .desc-content-img {
+    max-width: 325px;
+    margin: 0 auto 130px;
+  }
+  .desc-content .desc-content-img::after {
+    max-width: 232px;
+    max-height: 160px;
+    bottom: -50px;
+    left: 40px;
+    background-size: cover;
+  }
+  .desc-content .desc-content-text {
+    margin: 0 auto;
+    gap: 25px;
+  }
+  .block-wrapper {
+    gap: 30px;
+  }
+  .block-wrapper div {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  .block-wrapper div p {
+    font-size: 14px;
+  }
+  .block-wrapper div .btn1 {
+    margin: 40px 0;
+  }
+  .desc h2 {
+    margin-bottom: 0;
+    font-size: 40px;
+  }
+  .galery .galery-images img {
+    min-width: 280px;
+  }
+  .galery .galery-images .galery-image {
+    display: none;
+  }
+  .partners .icons-wrapper {
+    gap: 50px;
+  }
+  .partners .icons-wrapper img {
+    max-width: 80px;
+  }
+}
+@media (min-width: 577px) {
+  .galery .galery-images .galery-image-hidden {
+    display: none;
   }
 }/*# sourceMappingURL=main.css.map */
