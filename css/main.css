@@ -214,7 +214,7 @@ header.open .header-burger-btn span:nth-child(3) {
 }
 .desc-content .desc-content-img::after {
   content: "";
-  background-image: url(/resources/LineChart1.svg);
+  background-image: url(resources/LineChart1.svg);
   background-repeat: no-repeat;
   position: absolute;
   width: 450px;
@@ -239,19 +239,19 @@ header.open .header-burger-btn span:nth-child(3) {
 }
 .desc-content .desc-content-text .inner-text .icon1::before {
   content: "";
-  background-image: url(/resources/icon1.svg);
+  background-image: url(resources/icon1.svg);
   width: 30px;
   height: 25px;
 }
 .desc-content .desc-content-text .inner-text .icon2::before {
   content: "";
-  background-image: url(/resources/icon2.svg);
+  background-image: url(resources/icon2.svg);
   width: 30px;
   height: 30px;
 }
 .desc-content .desc-content-text .inner-text .icon3::before {
   content: "";
-  background-image: url(/resources/icon3.svg);
+  background-image: url(resources/icon3.svg);
   width: 44px;
   height: 20px;
 }
@@ -376,7 +376,7 @@ footer .footer-nav .inner-nav .footer-nav-icon {
 }
 footer .footer-nav .inner-nav .nav-icon1::before {
   content: "";
-  background-image: url(/resources/bx_bx-map.svg);
+  background-image: url(resources/bx_bx-map.svg);
   width: 30px;
   height: 40px;
   left: 0;
@@ -384,7 +384,7 @@ footer .footer-nav .inner-nav .nav-icon1::before {
 }
 footer .footer-nav .inner-nav .nav-icon2::before {
   content: "";
-  background-image: url(/resources/ic_baseline-phone-android.svg);
+  background-image: url(resources/ic_baseline-phone-android.svg);
   width: 30px;
   height: 40px;
   left: 0px;
