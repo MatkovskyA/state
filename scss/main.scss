@@ -4,15 +4,15 @@
 
 
 
-@font-face { 
-    font-family: "GraphikRegular";
-    src: url("/fonts/GraphikRegular/GraphikRegular.eot");
-    src: url("/fonts/GraphikRegular/GraphikRegular.eot?#iefix")format("embedded-opentype"),
-    url("./fonts/GraphikRegular/GraphikRegular.woff") format("woff"),
-    url("./fonts/GraphikRegular/GraphikRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: 400;
-}
+// @font-face { 
+//     font-family: "GraphikRegular";
+//     src: url("/fonts/GraphikRegular/GraphikRegular.eot");
+//     src: url("/fonts/GraphikRegular/GraphikRegular.eot?#iefix")format("embedded-opentype"),
+//     url("./fonts/GraphikRegular/GraphikRegular.woff") format("woff"),
+//     url("./fonts/GraphikRegular/GraphikRegular.ttf") format("truetype");
+//     font-style: normal;
+//     font-weight: 400;
+//}
 html {
     scroll-behavior: smooth;
 }
@@ -345,24 +345,26 @@ footer {
             content: '';
             background-image: url(/resources/bx_bx-map.svg);
             @extend %extend-icon;
-            width: 40px;
-            height: 45px;
-            left: -10px;
-            top: 5px;
+            width: 30px;
+            height: 40px;
+            left: 0;
+            top: 15px;
         }
         .nav-icon2::before {
             content: '';
             background-image: url(/resources/ic_baseline-phone-android.svg);
             @extend %extend-icon;
-            width: 40px;
+            width: 30px;
             height: 40px;
-            left: 0;
+            left: 0px;
+            top: 15px;
         }
     }
     .gap {
         margin-right: 200px;
     }
     .inner-icon-wrapper {
+        position: relative;
         text-align: center;
     }
 }

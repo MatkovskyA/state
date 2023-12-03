@@ -34,6 +34,7 @@ a:hover {
 
 footer .footer-nav .inner-nav .nav-icon2::before, footer .footer-nav .inner-nav .nav-icon1::before, .desc-content .desc-content-text .inner-text .icon3::before, .desc-content .desc-content-text .inner-text .icon2::before, .desc-content .desc-content-text .inner-text .icon1::before {
   background-repeat: no-repeat;
+  background-size: contain;
   position: absolute;
   top: 20px;
   left: -35px;
@@ -50,13 +51,6 @@ footer .footer-nav .inner-nav .nav-icon2::before, footer .footer-nav .inner-nav 
   margin: 0 auto;
 }
 
-@font-face {
-  font-family: "GraphikRegular";
-  src: url("/fonts/GraphikRegular/GraphikRegular.eot");
-  src: url("/fonts/GraphikRegular/GraphikRegular.eot?#iefix") format("embedded-opentype"), url("./fonts/GraphikRegular/GraphikRegular.woff") format("woff"), url("./fonts/GraphikRegular/GraphikRegular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 400;
-}
 html {
   scroll-behavior: smooth;
 }
@@ -385,22 +379,24 @@ footer .footer-nav .inner-nav .footer-nav-icon {
 footer .footer-nav .inner-nav .nav-icon1::before {
   content: "";
   background-image: url(/resources/bx_bx-map.svg);
-  width: 40px;
-  height: 45px;
-  left: -10px;
-  top: 5px;
+  width: 30px;
+  height: 40px;
+  left: 0;
+  top: 15px;
 }
 footer .footer-nav .inner-nav .nav-icon2::before {
   content: "";
   background-image: url(/resources/ic_baseline-phone-android.svg);
-  width: 40px;
+  width: 30px;
   height: 40px;
-  left: 0;
+  left: 0px;
+  top: 15px;
 }
 footer .footer-nav .gap {
   margin-right: 200px;
 }
 footer .footer-nav .inner-icon-wrapper {
+  position: relative;
   text-align: center;
 }
 
@@ -533,7 +529,6 @@ footer .footer-nav .inner-icon-wrapper {
     text-align: center;
   }
   footer .footer-nav .inner-nav a {
-    display: inline;
     text-align: center;
   }
   footer .footer-nav .inner-nav .footer-nav-icon {
