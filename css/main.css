@@ -239,7 +239,7 @@ header.open .header-burger-btn span:nth-child(3) {
 }
 .desc-content .desc-content-text .inner-text .icon1::before {
   content: "";
-  background-image: url(resources/icon1.svg);
+  background-image: url(../resources/icon1.svg);
   width: 30px;
   height: 25px;
 }

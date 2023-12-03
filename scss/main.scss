@@ -173,7 +173,7 @@ header.open .header-burger-btn span:nth-child(3) {
             }
             .icon1::before {
                 content: '';
-                background-image: url(resources/icon1.svg);
+                background-image: url(../resources/icon1.svg);
                 @extend %extend-icon;
                 width: 30px;
                 height: 25px;
