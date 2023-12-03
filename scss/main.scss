@@ -148,7 +148,7 @@ header.open .header-burger-btn span:nth-child(3) {
     }
     .desc-content-img::after {
         content: '';
-        background-image: url(resources/LineChart1.svg);
+        background-image: url(../resources/LineChart1.svg);
         background-repeat: no-repeat;
         position: absolute;
         width: 450px;
@@ -180,14 +180,14 @@ header.open .header-burger-btn span:nth-child(3) {
             }
             .icon2::before {
                 content: '';
-                background-image: url(resources/icon2.svg);
+                background-image: url(../resources/icon2.svg);
                 @extend %extend-icon;
                 width: 30px;
                 height: 30px;
             }
             .icon3::before {
                 content: '';
-                background-image: url(resources/icon3.svg);
+                background-image: url(../resources/icon3.svg);
                 @extend %extend-icon;
                 width: 44px;
                 height: 20px;
@@ -332,7 +332,7 @@ footer {
         }
         .nav-icon1::before {
             content: '';
-            background-image: url(resources/bx_bx-map.svg);
+            background-image: url(../resources/bx_bx-map.svg);
             @extend %extend-icon;
             width: 30px;
             height: 40px;
@@ -341,7 +341,7 @@ footer {
         }
         .nav-icon2::before {
             content: '';
-            background-image: url(resources/ic_baseline-phone-android.svg);
+            background-image: url(../resources/ic_baseline-phone-android.svg);
             @extend %extend-icon;
             width: 30px;
             height: 40px;
