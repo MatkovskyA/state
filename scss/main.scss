@@ -54,7 +54,7 @@ button:hover {
     text-align: center;
     }
 }
-header {
+.header {
     position: fixed;
     width: 100%;
     left: 0;
@@ -108,13 +108,13 @@ nav {
 .header-burger-btn span:nth-child(3) {
     transform: translateY(12px);
 }
-header.open .header-burger-btn span:nth-child(2) {
+.header.open .header-burger-btn span:nth-child(2) {
     opacity: 0;
 }
-header.open .header-burger-btn span:nth-child(1) {
+.header.open .header-burger-btn span:nth-child(1) {
     transform: translateY(0) rotate(45deg);
 }
-header.open .header-burger-btn span:nth-child(3) {
+.header.open .header-burger-btn span:nth-child(3) {
     transform: translateY(0) rotate(-45deg);
 }
 
@@ -272,10 +272,6 @@ header.open .header-burger-btn span:nth-child(3) {
 }
 
 .reviews {
-
-    img {
-        display: inline-block; // не работает. Доделать фото вровень с именем----------------
-    }
     .desc {
         margin-bottom: 50px;
     }

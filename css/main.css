@@ -110,7 +110,7 @@ button:hover {
   text-align: center;
 }
 
-header {
+.header {
   position: fixed;
   width: 100%;
   left: 0;
@@ -170,15 +170,15 @@ nav .nav-login {
   transform: translateY(12px);
 }
 
-header.open .header-burger-btn span:nth-child(2) {
+.header.open .header-burger-btn span:nth-child(2) {
   opacity: 0;
 }
 
-header.open .header-burger-btn span:nth-child(1) {
+.header.open .header-burger-btn span:nth-child(1) {
   transform: translateY(0) rotate(45deg);
 }
 
-header.open .header-burger-btn span:nth-child(3) {
+.header.open .header-burger-btn span:nth-child(3) {
   transform: translateY(0) rotate(-45deg);
 }
 
@@ -315,9 +315,6 @@ header.open .header-burger-btn span:nth-child(3) {
   justify-content: center;
   gap: 75px;
   margin-bottom: 50px;
-}
-.reviews img {
-  display: inline-block;
 }
 .reviews .desc {
   margin-bottom: 50px;
