@@ -26,8 +26,23 @@ html {
     text-decoration: none;
     display: inline-block;
     color: white;
+    padding: 20px 40px;
   }
 
   a:hover {
     opacity: 0.6;
+  }
+
+  p {
+    line-height: 24px;
+  }
+  section {
+      padding: 0px 50px;
+  }
+
+  button {
+      cursor: pointer;
+  }
+  button:hover {
+      opacity: 0.9;
   }

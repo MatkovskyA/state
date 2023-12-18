@@ -16,12 +16,12 @@
 <body>
     <header class="header" id="header">
         <div class="container">
-            <nav>
+            <nav class="header-nav">
                 <button class="header-burger-btn">
                     <span></span><span></span><span></span>
                 </button>
-                <a href="#" class="opacity">
-                    <img src="resources/Logo.svg" alt="Логотип">
+                <a href="#" target="_blank" class="header-nav-logo opacity">
+                    <img src="resources/Logo.svg" class="header-logo" alt="Логотип">
                 </a>
 
                 <div class="nav-links">
@@ -31,7 +31,7 @@
                     <a href="#review">Отзывы</a>
                 </div>
                 <div class="nav-login">
-                    <a href="#">Войти</a>
+                    <a href="#" target="_blank">Войти</a>
                 </div>
             </nav>
         </div>
@@ -40,27 +40,28 @@
         <section class="present">
             <div class="container">
                 <div class="desc">
-                    <h1>Работайте на<br>
+                    <h1 class="desc-title">Работайте на
                         скорости мысли</h1>
-                    <h4>Большинство календарей предназначены для команд. Slate предназначен для<br> фрилансеров, которым
+                    <h4 class="section-text">Большинство календарей предназначены для команд. Slate предназначен для
+                        фрилансеров, которым
                         нужен
                         удобный способ планировать свой график.</h4>
+                    <div class="desc-btn">
+                        <button class="btn">Попробовать бесплатно</button>
+                        <button class="btn">Узнать больше</button>
+                    </div>
                 </div>
-                <div class="desc-btn">
-                    <button class="btn">Попробовать бесплатно</button>
-                    <button class="btn">Узнать больше</button>
-                </div>
-
             </div>
             <div class="desc-img">
-                <img src="resources/screens.svg" alt="Графики">
+                <img src="resources/screens.svg" class="present-desc-img" alt="Графики">
             </div>
         </section>
         <section class="possibilities" id="possibil">
             <div class="container">
                 <div class="desc">
-                    <h2>Возможности</h2>
-                    <h4>Большинство календарей предназначены для команд. Slate предназначен для<br> фрилансеров, которым
+                    <h2 class="section-title">Возможности</h2>
+                    <h4 class="section-text">Большинство календарей предназначены для команд. Slate предназначен для
+                        фрилансеров, которым
                         нужен
                         удобный способ планировать свой график.</h4>
                 </div>
@@ -96,27 +97,26 @@
         <section class="extensions" id="extension">
             <div class="container">
                 <div class="desc">
-                    <h2>Расширения</h2>
-                    <h4>Slate поддерживает добавление расширений для того,<br>
+                    <h2 class="section-title">Расширения</h2>
+                    <h4 class="section-text">Slate поддерживает добавление расширений для того,
                         чтобы ваша работа была еще удобнее.</h4>
                 </div>
                 <div class="block-wrapper">
-                    <div>
-                        <h3>
+                    <div class="extensions-block">
+                        <h3 class="">
                             Работа под защитой
                         </h3>
                         <p>
-                            Вы когда-нибудь задумывались,<br>
-                            хорошо ли защищён ваш рабочий аккаунт?<br>
-                            Slate Safe поможет вам с этим.
+                            Вы когда-нибудь задумывались,
+                            хорошо ли защищён ваш рабочий аккаунт?
                         </p>
                         <button class="btn1">Скачать</button>
                         <img class="screen1" src="resources/SCREENMASK.svg" alt="Скрин-шот">
                         <img src="resources/Base.svg" class="base" alt="Нижняя линия">
                     </div>
-                    <div>
+                    <div class="extensions-block">
                         <h3>
-                            Slate не конкурирует,<br>
+                            Slate не конкурирует,
                             а дружит со своими "коллегами"
                         </h3>
                         <p>
@@ -132,8 +132,8 @@
         <section class="galery" id="galer">
             <div class="container">
                 <div class="desc">
-                    <h2>Галерея</h2>
-                    <h4>Мы уделяем особое внимание эргономике<br>
+                    <h2 class="section-title">Галерея</h2>
+                    <h4 class="section-text">Мы уделяем особое внимание эргономике
                         и заботимся о том, что бы вам было удобно.</h4>
                 </div>
                 <div class="galery-images">
@@ -154,8 +154,8 @@
         <section class="partners">
             <div class="container">
                 <div class="desc">
-                    <h2>Партнёры</h2>
-                    <h4>Коллаборация с партнерами дает дополнительные<br>
+                    <h2 class="section-title">Партнёры</h2>
+                    <h4 class="section-text">Коллаборация с партнерами дает дополнительные
                         возможности в использовании Slate.</h4>
                 </div>
                 <div class="icons-wrapper">
@@ -172,13 +172,13 @@
         <section class="reviews" id="review">
             <div class="container">
                 <div class="desc">
-                    <h2>Отзывы</h2>
+                    <h2 class="section-title">Отзывы</h2>
                 </div>
                 <div class="reviews-blocks-wrapper">
                     <div class="reviews-block">
-                        <div>
+                        <div class="reviews-block-user">
                             <img src="resources/avatar1.svg" alt="Фото пользователя">
-                            <h4>Алёна Романова<br>Дизайнер</h4>
+                            <h4><span class="reviews-user-title">Алёна Романова</span> Дизайнер</h4>
                         </div>
                         <p>Slate поможет вам узнать, сколько еще
                             дней нужно работать, чтобы достичь
@@ -187,9 +187,9 @@
                             о безопасности данных.</p>
                     </div>
                     <div class="reviews-block">
-                        <div>
+                        <div class="reviews-block-user">
                             <img src="resources/avatar2.svg" alt="Фото пользователя">
-                            <h4>Евгений Титов<br>Инженер</h4>
+                            <h4><span class="reviews-user-title">Евгений Титов</span>Инженер</h4>
                         </div>
                         <p>Я в восторге от этого приложения!
                             Оно является удобным инструментом
@@ -198,9 +198,9 @@
                             работу в нем более эффективной.</p>
                     </div>
                     <div class="reviews-block">
-                        <div>
+                        <div class="reviews-block-user">
                             <img src="resources/avatar2.svg" alt="Фото пользователя">
-                            <h4>Роман Васильев<br>Дизайнер</h4>
+                            <h4><span class="reviews-user-title">Роман Васильев</span>Дизайнер</h4>
                         </div>
                         <p>Приложение – настоящий подарок для
                             инженеров! Оно предоставляет
@@ -209,9 +209,9 @@
                             оптимизирует нашу работу.</p>
                     </div>
                     <div class="reviews-block">
-                        <div>
+                        <div class="reviews-block-user">
                             <img src="resources/avatar1.svg" alt="Фото пользователя">
-                            <h4>Лиза Ковалёва<br>Копирайтер</h4>
+                            <h4><span class="reviews-user-title">Лиза Ковалёва</span>Копирайтер</h4>
                         </div>
                         <p>Это приложение стало настоящим
                             спасением для меня, как для копирайтера.
@@ -223,48 +223,48 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <section>
             <div class="container">
                 <div class="footer-nav">
-                    <div class="inner-nav">
+                    <div class="footer-inner-nav">
                         <h4>Основное</h4>
-                        <a href="">Возможности</a>
-                        <a href="">Расширения</a>
-                        <a href="">Галерея</a>
-                        <a href="">Отзывы</a>
+                        <a href="" target="_blank">Возможности</a>
+                        <a href="" target="_blank">Расширения</a>
+                        <a href="" target="_blank">Галерея</a>
+                        <a href="" target="_blank">Отзывы</a>
                     </div>
-                    <div class="inner-nav">
+                    <div class="footer-inner-nav">
                         <h4>Ресурсы</h4>
-                        <a href="">Приложение</a>
-                        <a href="">Обновления</a>
-                        <a href="">Скрипты</a>
-                        <a href="">Документация</a>
+                        <a href="" target="_blank">Приложение</a>
+                        <a href="" target="_blank">Обновления</a>
+                        <a href="" target="_blank">Скрипты</a>
+                        <a href="" target="_blank">Документация</a>
                     </div>
-                    <div class="inner-nav gap">
+                    <div class="footer-inner-nav gap">
                         <h4>Мы</h4>
-                        <a href="">О приложении</a>
-                        <a href="">Контакты</a>
-                        <a href="">Связаться</a>
+                        <a href="" target="_blank">О приложении</a>
+                        <a href="" target="_blank">Контакты</a>
+                        <a href="" target="_blank">Связаться</a>
                     </div>
-                    <div class="inner-nav">
+                    <div class="footer-inner-nav">
                         <div class="inner-icon-wrapper">
-                            <a href="" class="nav-icon1">ул. Московская, д1.</a>
+                            <a href="" target="_blank" class="nav-icon1"><span class="ymaps-geolink">ул. Московская,
+                                    д1.</span></a>
                         </div>
                         <div class="inner-icon-wrapper">
                             <a href="tel:+79414323211" class="nav-icon2">+7 (941) 432-32-11</a>
                         </div>
                         <div class="footer-nav-icon">
-                            <a href="#"><img src="resources/ant-design_twitter-outlined.svg" alt=""></a>
-                            <a href="#"><img src="resources/ant-design_facebook-filled.svg" alt=""></a>
-                            <a href="#"><img src="resources/ant-design_linkedin-filled.svg" alt=""></a>
+                            <a href="#" target="_blank"><img src="resources/ant-design_twitter-outlined.svg" alt=""></a>
+                            <a href="#" target="_blank"><img src="resources/ant-design_facebook-filled.svg" alt=""></a>
+                            <a href="#" target="_blank"><img src="resources/ant-design_linkedin-filled.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     </footer>
-
     <script src="main.js"></script>
 </body>
 
